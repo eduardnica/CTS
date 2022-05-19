@@ -1,3 +1,4 @@
+package Memento;
 
 public class File {
     private String content;
@@ -18,7 +19,7 @@ public class File {
         return new FileSnapshot(this.content,message);
     }
     public void print(){
-        System.out.println("File, name: "+name+", content: "+content);
+        System.out.println("memento.File, name: "+name+", content: "+content);
     }
     public void restoreFileContent(FileSnapshot fileSnapshot){
         if(fileSnapshot!=null)

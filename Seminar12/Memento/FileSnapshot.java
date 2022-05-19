@@ -1,3 +1,5 @@
+package Memento;
+
 public class FileSnapshot {
     private String content;
     private String commitMessage;
@@ -9,7 +11,7 @@ public class FileSnapshot {
 
     @Override
     public String toString() {
-        return "FileSnapshot{" +
+        return "memento.FileSnapshot{" +
                 "content='" + content + '\'' +
                 ", commitMessage='" + commitMessage + '\'' +
                 '}';
